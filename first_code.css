@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 50%;
+    min-height: 100px;
+    margin: auto;
+}
+.logo {
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    line-height: 100px;
+    background-color: lightgray;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.navi {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 5px;
+}
+.head-ban {
+    width: 100%;
+    min-height: 100px;
+    line-height: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 5px;
+}
+#main {
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+}
+#side-bar {
+    width: 25%;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color: lightgray;
+    float: left;
+    margin-top: 5px;
+}
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+#body-area {
+    width: 70%;
+    min-height: 400px;
+    line-height: 400px;
+    background-color: lightgray;
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+}
+.foot {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
